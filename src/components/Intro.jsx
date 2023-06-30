@@ -15,10 +15,11 @@ const Intro = () => {
                 </h1>
                 <p>Personal budgeting is the secret to financial freedom. Start your journey today.</p>
                 <Form method="post">
+                    <input type="hidden" name="_action" value="newUser" />
                     <input type="text" name="userName" maxLength={32} required placeholder="What is your name?" aria-label="Your name" autoComplete="given-name" />
                     <button type="submit" className="btn btn--dark">
                         <span>Create Account</span>
-                        <FaUserPlus width={20} />
+                        <FaUserPlus width={10} />
                     </button>
                 </Form>
             </div>

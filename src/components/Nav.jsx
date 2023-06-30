@@ -22,7 +22,7 @@ const Nav = ({ userName }) => {
                         }
                     }}>
                         <button type="submit" className="btn btn--warning">
-                            <span>Delete User <FaTrash width={20} /></span>
+                            <span>Delete User <FaTrash width={10} /></span>
                         </button>
                     </Form>
                 )
